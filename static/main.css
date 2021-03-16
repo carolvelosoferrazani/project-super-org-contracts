@@ -1,0 +1,115 @@
+img{
+    padding: 50px;
+}
+
+body{
+    margin: 0;
+}
+.box {
+    padding-top: 50px;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+}
+ /*formulario*/
+.formulario{
+    padding-top: 50px;
+}
+.btn-primary {
+    color: rgb(15, 15, 15);
+    background-color: #04e097;
+    border-color: transparent;
+    font-weight: 500;
+}
+/*lista dominios*/
+#dominios{
+    border: 3px solid rgb(187, 184, 184);
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+/*lista emails*/
+#contatos{
+    height: auto;
+    width: 400px;
+    border: 3px solid rgb(187, 184, 184);
+    text-align: center;  
+}
+.list-dominios{
+    border: 1px solid rgb(252, 248, 248);
+    margin: auto;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+.title-p{
+    font-size: 28px;
+    color: #04e097;
+    margin: 0;
+    padding: 10px
+}
+.list-emails {
+    border: 1px solid rgb(252, 248, 248);
+    margin: auto;
+    text-align: initial;
+    padding: 10px 0px 10px 5px;
+    font-size: 14px;
+}
+/*formulario de login*/
+#card {
+    width: 100vw;
+    height: 100vh;
+    background: #04e097;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+#box {
+    margin-top: -200px;
+    width: 400px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 1px 2px 1px #ddd;
+ }
+ p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(105 107 105);
+}
+
+/*botão de login*/
+#button_google {
+    background-image: url(/static/g.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: -20px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 50px;
+    background-color: white;
+    color: rgb(117, 117, 117);
+    border: thin solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px 1px #ddd;
+    white-space: nowrap;
+    text-align: end;
+    font: bold 1.17em 'Roboto';
+}
+#button_google:hover {
+    cursor: pointer;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 3px 3px rgba(0, 124, 54, 1);
+    box-shadow: 0 0 3px 3px rgba(59, 204, 95, 1);
+}
+#button_google:active {
+    background-color: #bcc0bd;
+    transition: background-color 0.2s;
+}

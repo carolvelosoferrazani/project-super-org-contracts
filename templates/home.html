@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../static/main.css">
+</head>
+<body>
+<div class="box">
+    <!--Gerando uma lista com os dominios-->
+    <div id="dominios"><p class="title-p">Dominios</p>
+    {%for domain in dominios%}
+    <p class="list-dominios">{{domain}}</p>
+    {% endfor%}</div>
+    <!--Gerando uma lista com os emails-->
+    <div id="contatos"><p class="title-p">Contatos</p>
+    {%for email in listaEmails%}
+    <p class="list-emails">{{email}}</p>
+    {% endfor%}</div>
+</div>
+<script type="text/javascript" src="/static/main.js"></script>
+</body>
